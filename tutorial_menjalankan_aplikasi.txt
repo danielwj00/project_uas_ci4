@@ -1,0 +1,24 @@
+1. bikin database namanya sekolah
+2. taro hasil unzip di htdocs
+3. buka terminal arahin ke folder project
+4. ketik line berikut:
+php spark migrate
+php spark db:seed RoleSeeder
+php spark db:seed UserSeeder
+php spark db:seed GuruSeeder
+php spark db:seed KelasSeeder
+php spark db:seed MataPelajaranSeeder
+php spark db:seed MuridSeeder
+php spark db:seed AlokasiKelasSeeder
+
+jalankan langsung di xampp. jangan menggunakan php spark serve
+daftar login:
+-- admin
+admin@email.com
+admin
+-- guru
+gurupertama@email.com
+gurupertama
+-- murid
+muridpertama@email.com
+muridpertama
